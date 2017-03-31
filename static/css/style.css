@@ -30,3 +30,6 @@ h1 {
 form {
   margin: 0px;
 }
+.flip {
+  transform: scale(-1, 1);
+}

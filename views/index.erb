@@ -9,13 +9,16 @@
 <body>
   <div id="header">
     <h1>
-    <img src="res/app_icon.png" style="transform: scale(-1, 1);">
+    <img src="res/app_icon.png" class=".flip">
     Tranship Changer
-    <img src="res/app_icon.png"></h1>
+    <img src="res/app_icon.png">
+    </h1>
   </div>
   <form id="tranship-changer">
-    <textarea name="pros" class="textbox" name="" id="pro_numbers" cols="95" rows="35" placeholder="paste pro numbers here"></textarea>
-    <textarea name="result" class="textbox" name="" id="result" cols="95" rows="35" placeholder="The result will appear here. Paste this into accuterm to change tranships!" readonly><%= result %></textarea>
+    <textarea name="pros" class="textbox" name="" id="pro_numbers" cols="95" rows="35" placeholder="paste pro numbers here(from DIS screen)"></textarea>
+    
+    <textarea name="result" class="textbox" name="" id="result" cols="95" rows="35" placeholder="The result will appear here. Copy(CTRL+C) and paste(CTRL+V) this into accuterm(PRO screen) to change tranships!" readonly><%= result %></textarea>
+
     <input class="textbox" name="tranship" type="text" placeholder="tranships to use">
     <input type="submit" id="submit-button" value="Change Tranships!">
   </form>
