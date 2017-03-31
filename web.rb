@@ -17,6 +17,7 @@ end
 get "/" do
   if params["pros"]
     pros = params["pros"]
+    pros.gsub!(/^\s*$/, "")
     pros.gsub!(/\r\n?/, "\n")
     result = change_tranships(pros, params["tranship"])
   end
