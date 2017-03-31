@@ -1,8 +1,9 @@
 class TranshipChanger
   @pros = []
   @@valid_tranships = {
-    kearny: "803,679,885",
-    tomsbrook: "803,779,776"
+    kearny:    "803,679,885",
+    tomsbrook: "803,679,885",
+    mansfield: "803,779,776"
   }
   def initialize(pros)
     @pros = pros
