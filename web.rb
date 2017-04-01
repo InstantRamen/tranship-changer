@@ -19,7 +19,7 @@ get "/" do
     pros = params["pros"]
     pros.gsub!(/^\s*$/, "")
     pros.gsub!(/\r\n?/, "\n")
-    result = change_tranships(pros, params["tranship"])
+    result = change_tranships(pros, params[ "tranship"])
   end
   erb(:index, locals: {result: result})
 end

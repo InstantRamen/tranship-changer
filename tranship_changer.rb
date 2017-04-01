@@ -18,7 +18,7 @@ class TranshipChanger
     end
     result = ""
     @pros.each do |pro|
-      result << "#{pro} \n2 \n#{tranships} \n \n \n"
+      result << "#{pro} \n2 \n#{tranships} \n\r \n\r \n\r \n\r \n\r"
     end
     result
   end
