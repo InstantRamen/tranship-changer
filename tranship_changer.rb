@@ -24,7 +24,7 @@ class TranshipChanger
     tranships = validate_tranship(tranship_string)
     result = ""
     @pros.each do |pro|
-      result << "#{pro} \n2 \n#{tranships} \r \r \r \r"
+      result << "#{pro} \n2 \n#{tranships} \n\r \n\r \n\r \n\r"
     end
     result
   end
