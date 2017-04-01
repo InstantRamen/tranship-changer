@@ -1,9 +1,10 @@
 class TranshipChanger
   @pros = []
   @@valid_tranships = {
-    kearny:    "803,679,885",
+    kearny:    "803,885",
     tomsbrook: "803,679,885",
     mansfield: "803,779,776"
+    austintown: "803,776"
   }
   def initialize(pros)
     @pros = pros
@@ -18,7 +19,7 @@ class TranshipChanger
     end
     result = ""
     @pros.each do |pro|
-      result << "#{pro} \n2 \n#{tranships} \n\r \n\r \n\r \n\r \n\r"
+      result << "#{pro} \n2 \n#{tranships} \n \n \n \n"
     end
     result
   end
