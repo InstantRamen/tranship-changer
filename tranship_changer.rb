@@ -3,7 +3,7 @@ class TranshipChanger
   @@valid_tranships = {
     kearny:    "803,885",
     tomsbrook: "803,679,885",
-    mansfield: "803,779,776"
+    mansfield: "803,779,776",
     austintown: "803,776"
   }
   def initialize(pros)
