@@ -9,9 +9,13 @@ h1 {
 }
 #pro_numbers {
   float: left;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 #result {
   float:  right;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .textbox {
   font-size: 12px;
@@ -19,17 +23,31 @@ h1 {
   border: 1px solid #333;
   background: #444;
   padding: 5px;
+  box-shadow: 1px 1px 10px black;
 }
 #submit-button {
-  width: 100%;
+  position: relative;
+  width: 50%;
   height: 50px;
   margin-top: 20px;
   font-size: 16px;
   border-radius: 3px;
+  background: #444;
+  border: 1px solid black;
+  left: 25%;
 }
 form {
   margin: 0px;
 }
 .flip {
   transform: scale(-1, 1);
+}
+#tranship-box {
+  position: absolute;
+  left: 0px;
+  top:  10px;
+  height: 30px;
+  width: 200px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
