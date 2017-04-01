@@ -25,6 +25,7 @@ h1 {
   padding: 5px;
   box-shadow: 1px 1px 10px black;
   width: 48%;
+  resize: none;
 }
 #submit-button {
   position: relative;
