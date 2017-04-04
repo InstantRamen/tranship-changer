@@ -4,8 +4,10 @@ body {
   color: #000;
 }
 h1 {
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
+  color: #ddd;
+  text-shadow: 1px 1px 1px black
 }
 #pro_numbers {
   float: left;
