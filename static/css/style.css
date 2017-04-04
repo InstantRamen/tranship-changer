@@ -1,13 +1,12 @@
 body {
   font-family: sans-serif;
   background: #777;
-  color: #000;
 }
 h1 {
   font-size: 30px;
   text-align: center;
   color: #ddd;
-  text-shadow: 1px 1px 1px black
+  text-shadow: 1px 1px 1px black;
 }
 #pro_numbers {
   float: left;
@@ -16,7 +15,7 @@ h1 {
   border-left: none;
 }
 #result {
-  float:  right;
+  float: right;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
   border-right: none;
@@ -27,10 +26,12 @@ h1 {
   border: 1px solid #ddd;
   background: #444;
   padding: 5px;
-  box-shadow: 1px 1px 5px black;
+  box-shadow: inset 1px 1px 5px black;
+  padding-left: 9px;
   width: 48%;
   resize: none;
 }
+
 #submit-button {
   position: relative;
   width: 50%;
@@ -44,9 +45,7 @@ h1 {
   color: white;
   box-shadow: 1px 1px 5px black;
 }
-#submit-button :active {
-  color: red;
-}
+
 form {
   margin: 0px;
 }
