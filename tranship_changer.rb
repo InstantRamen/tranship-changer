@@ -15,6 +15,8 @@ class TranshipChanger
     tranship_string.downcase!
     if @@valid_tranships[tranship_string.to_sym]
       @@valid_tranships[tranship_string.to_sym]
+    elsif tranship_string == "" || !tranship_string
+      @@valid_tranships[:tomsbrook]
     else
       tranship_string
     end
