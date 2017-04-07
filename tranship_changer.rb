@@ -12,7 +12,7 @@ class TranshipChanger
   end
 
   def validate_tranship(tranship_string)
-    tranship_string.downcase!
+    tranship_string.gsub!(/\s+/, "").downcase!
     if @@valid_tranships[tranship_string.to_sym]
       @@valid_tranships[tranship_string.to_sym]
     elsif tranship_string == "" || !tranship_string
