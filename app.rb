@@ -7,6 +7,7 @@ class App < Sinatra::Base
   
   @pros = []
   @result = "nothing is here..."
+  
   set :public_folder, File.dirname(__FILE__) + '/static'
 
   def change_tranships(pros_string, tranships)
