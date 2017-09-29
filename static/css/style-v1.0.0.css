@@ -3,6 +3,7 @@ body {
 #app-container {
   position: aboslute;
   min-height: calc(100% - 36px);
+  padding-bottom: 25px;
 }
 
 form {
@@ -15,4 +16,8 @@ form {
   bottom: 0px;
   width: 100vw;
   height: 50px;
+}
+
+textarea {
+  resize: none;
 }

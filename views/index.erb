@@ -21,14 +21,20 @@
             type="text" 
             placeholder="tranships to use"
           >
-
+          
           <div class="column eight wide pane left floated">
-            <textarea rows="30" name="pros" id="" cols="30" rows="10"></textarea>
+            <div class="ui raised segment">
+              <label for="pros" class="ui black ribbon label">Pros to change:</label>
+              <textarea rows="30" name="pros" id="" cols="30" rows="10"></textarea>
+            </div>
           </div>
           <div class="column eight wide pane right floated">
-            <textarea rows="30" name="result" id="result" readonly><%= result %></textarea>
+            <div class="ui raised segment">
+              <label for="result" class="ui black ribbon label">Result:</label>
+              <textarea rows="30" name="result" id="result" readonly><%= result %></textarea>
+            </div>
           </div>
-          <button class="ui button primary" type="submit" id="submit-button">
+          <button class="ui button black" type="submit" id="submit-button">
             Change Tranships!
           </button>
         </div>
