@@ -1,4 +1,4 @@
-class TranshipChanger
+class TranshipChanger 
   @pros = []
   @@valid_tranships = {
     kearny:     "803,885",
@@ -19,7 +19,7 @@ class TranshipChanger
     if @@valid_tranships[tranship_string.to_sym]
       @@valid_tranships[tranship_string.to_sym]
     elsif tranship_string == "" || !tranship_string
-      @@valid_tranships[:tomsbrook]
+      @@valid_tranships[:mansfield]
     else
       tranship_string
     end
