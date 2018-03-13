@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Tranship Changer</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
   <link rel="stylesheet" href="css/style-v1.0.0.css">
 </head>
+
 <body>
   <div id="app-container">
     <div class="ui attached inverted menu">
-      <div class="header item"><i class="shipping icon"></i>Tranship Changer</div>
+      <div class="header item">
+        <i class="shipping icon"></i>Tranship Changer</div>
     </div>
     <div class="ui grid">
       <form class="ui form column fifteen wide centered" method="post" action="/" id="tranship-changer">
         <div class="ui grid centered">
           <div class="column sixteen wide centered">
-            <input 
-              class="textbox" 
-              name="tranship" 
-              id="tranship-box" 
-              type="text" 
-              placeholder="tranships to use"
-            > 
+            <input class="textbox" name="tranship" id="tranship-box" type="text" placeholder="tranships to use">
           </div>
 
-          
+
           <div class="column eight wide pane left floated">
             <div class="ui raised segment">
               <label for="pros" class="ui black ribbon label">Pros to change:</label>
@@ -45,17 +42,20 @@
     </div>
   </div>
   <div class="ui inverted vertical footer segment form-page" id="footer">
-    <div class="ui container">
-      <div class="copyright-notice">
-        &copy; 2017 Derrick Cudd
-        <span class="ui right floated">
-          <a href="https://github.com/instantramen"><i class="large teal github icon"></i></a>
-        </span>
-      </div>
+    <div class="copyright-notice">
+      &copy; 2018 Derrick Cudd
+      <span class="ui right floated">
+        <a href="https://github.com/instantramen">
+          <i class="large teal github icon"></i>
+        </a>
+      </span>
     </div>
+    <a class="ui right floated contact-button" href="mailto:derrick@cudd.io">Contact Me</a>
+
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.js"></script>
   <script src="js/script.js"></script>
 </body>
+
 </html>
